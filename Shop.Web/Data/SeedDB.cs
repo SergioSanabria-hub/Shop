@@ -48,9 +48,10 @@
 
             if (!this.context.Products.Any())
             {
-                this.AddProduct("iPhone10", user);
-                this.AddProduct("Samsung Galaxy", user);
-                this.AddProduct("Motorola GP", user);
+                this.AddProduct("Bateria Honda Tornado", user);
+                this.AddProduct("Escape Guerrero Trip 110", user);
+                this.AddProduct("Asiento Honda Wave", user);
+                this.AddProduct("Espejos Honda Tornado", user);
                 await this.context.SaveChangesAsync();
             }
         }
